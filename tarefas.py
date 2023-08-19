@@ -1,13 +1,12 @@
-nome = "João Paulo"
-altura = 1,86
-idade = 2023-2005
-peso = 62
+nota = int(input('Digite a nota do aluno'))
 
-print (nome)
-print (idade , "anos")
-print (altura , "de altura")
-print (peso ,"kg")
-if idade>17:
-    print ("Maior de idade") 
+if nota >= 90:
+    print('A - Excelente')
+elif nota >= 80:
+    print('B - Muito Bom')
+elif nota >= 70:
+    print('C - Bom')
+elif nota >= 60:
+    print('D - Regular')
 else:
-    print("Menor de idade")
+    print('F - Reprovado')

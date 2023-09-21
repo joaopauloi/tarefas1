@@ -1,0 +1,13 @@
+
+peso = float(input("Digite seu peso em quilogramas: "))
+altura = float(input("Digite sua altura em metros: "))
+
+imc = peso / (altura ** 2)
+
+print(f"Seu IMC é: {imc:.2f}")
+Este código é mais curto e direto, adequado para iniciantes. Ele solicita ao usuário o peso e a altura, calcula o IMC e exibe o resultado com duas casas decimais. Certifique-se de inserir números válidos para peso e altura.
+
+
+
+
+
